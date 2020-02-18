@@ -5,3 +5,8 @@ Grupo del Martes PE102:
 Integrantes:
 - Melissa Díaz Suárez
 - Andrea Hernández Martín
+
+
+
+Enlaces a prácticas:
+- Práctica 1
