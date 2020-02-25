@@ -9,4 +9,4 @@ Integrantes:
 
 
 Enlaces a prácticas:
-- Práctica 1
+- Práctica 1. Introducción al Protocolo HTTP: https://github.com/Zarlie/UyA/tree/master/Pr%C3%A1ctica%201
