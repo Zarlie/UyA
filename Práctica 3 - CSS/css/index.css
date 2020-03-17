@@ -1,0 +1,133 @@
+html { 
+    width: 770px;
+    font-family: Arial;
+    color: black;
+    font-size: 1.5em;
+    
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.contenido_secundario {
+    width: 323px;
+    height: 1208.44px;
+    float: left;
+    background-color: rgb(163, 230, 218);
+}
+
+.contenido_secundario h3, p{
+    text-align: center;
+}
+
+.contenido_secundario li {
+    list-style: none;
+}
+
+#menu a {
+    text-align: left;
+} 
+
+#menu {
+    margin-bottom:  0.7em;
+    padding: 0.3em;
+}
+
+
+/* Contenedor derecho que posee barra de navegación, columna derecha
+de contenidos y columna de enlaces */
+.contenedor {
+    width: 430px; 
+    display: inline-block;
+    text-align: center;
+}
+
+/* Barra de navegación */
+#barra_navegacion {
+    height: 100px;
+    width: 430px;
+    background-image: url("../img/cabecera.jpg");
+    background-color: rgb(117, 190, 192);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    float: right;
+    display: block;
+    font-weight: bold;
+}
+
+nav > a {
+    background-color: white;
+}
+nav > a:hover {
+    background-color: rgb(215, 240, 236);
+}
+
+/* Columna derecha de contenidos */
+#texto_principal {
+    width: 250px;
+    float: left;
+    background-color: white
+    padding: 0.01em;
+}
+
+#texto_principal img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+/* Columna de enlaces */
+#enlaces {
+    width: 180px;
+    height: 1108.44px;
+    float: right;
+    text-align: center;
+    background-color: rgb(245, 144, 107);
+}
+
+#enlaces a {
+    line-height: 1.5em;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:visited:hover{
+    color: red;
+}
+
+
+table a {
+    text-align: center;
+    color: green;
+}
+
+table a:visited {
+    color: green;
+}
+
+p {
+    margin-top: 0.5em;
+}
+
+
+/* Footer */
+footer {
+    background-color: #c0c0c0; 
+    width: 754px;
+    text-align: center;
+    clear: both;
+    position: relative;
+    /* bottom: 60px; */
+}
