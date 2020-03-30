@@ -1,0 +1,40 @@
+{
+    "personas":[
+        {
+            "name": "Eduardo",
+            "DNI": "48342532F",
+            "año": 1995,
+            "ingreso": 2017, 
+            "productividad": 0.5, 
+            "antiguedad": 0.3, 
+            "sueldo": 2500
+        },
+        {
+            "name": "Fernando",
+            "DNI": "53976431J",
+            "año": 1997,
+            "ingreso": 2019, 
+            "productividad": 0.4, 
+            "antiguedad": 0.1, 
+            "sueldo": 1400
+        },
+        {
+            "name": "Martin",
+            "DNI": "01965123X",
+            "año": 1997,
+            "ingreso": 2016, 
+            "productividad": 0.7, 
+            "antiguedad": 0.4, 
+            "sueldo": 1250
+        },
+        {
+            "name": "Marcos",
+            "DNI": "45251367W",
+            "año": 1999,
+            "ingreso": 2020, 
+            "productividad": 0.8, 
+            "antiguedad": 0.0, 
+            "sueldo": 850
+        }
+    ]
+}
