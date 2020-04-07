@@ -1,5 +1,5 @@
 # UyA
-Repositorio de la asignatura de Usabilidad y Algoritmia
+Repositorio de la asignatura de Usabilidad y Accesibilidad
 
 Grupo del Martes PE102:
 Integrantes:
