@@ -1,0 +1,15 @@
+body {
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/d9/2b/0d/d92b0d179ff256a39b164cf55e29399b.jpg);
+}
+
+form input{
+    text-align: center;
+}
+
+label{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
