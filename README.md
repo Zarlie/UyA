@@ -15,5 +15,5 @@ Enlaces a prácticas:
 - [Práctica 4. Introducción a Materialize](https://github.com/Zarlie/UyA/tree/master/Pr%C3%A1ctica%204%20-%20Materialize)
 - [Práctica 5. Introducción a JavaScript](https://github.com/Zarlie/UyA/tree/master/Pr%C3%A1ctica%205%20-%20JavaScript)
 - [Práctica 6. Introducción a AJAX](https://github.com/Zarlie/UyA/tree/master/Pr%C3%A1ctica%206%20-%20AJAX)
-- [Práctica 7. Introducción a Firebase 1](https://github.com/Zarlie/UyA/tree/master/Pr%C3%A1ctica%207%20-%20Introducci%C3%B3n%20a%20Firebase%201(
+- [Práctica 7. Introducción a Firebase 1](https://github.com/Zarlie/UyA/tree/master/Pr%C3%A1ctica%207%20-%20Introducci%C3%B3n%20a%20Firebase%201)
 
