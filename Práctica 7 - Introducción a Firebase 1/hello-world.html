@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Firebase Cliente Web</title>
+
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+</head>
+<body>
+    <h1>Test con Firebase</h1>    
+    <p id="infoFire"> </p>
+
+    
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyADUtmvonrkiCV8XHpQD1ovKgBbe94QsYw",
+    authDomain: "prueba-uya-ccb56.firebaseapp.com",
+    databaseURL: "https://prueba-uya-ccb56.firebaseio.com/",
+    projectId: "prueba-uya-ccb56",
+    storageBucket: "prueba-uya-ccb56.appspot.com",
+    messagingSenderId: "671546826026",
+    appId: "1:671546826026:web:ea6a542be8cc96f9e09253",
+    measurementId: "G-G94F08YJ1L"
+  };
+
+  var database = firebase.database(); 
+  var referencia = database.ref('cronica');
+  //Escribir un documento
+  referencia.set({
+        autor: 'Gabriel García Márquez',
+        año: 1981,
+        título: 'Crónica de una muerte anunciada'
+  });
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
+</html>
