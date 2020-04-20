@@ -83,4 +83,4 @@ A continuación, se muestran una serie de ejemplos con diversas funcionalidades 
           });
         };
 ```
-![Mostrar contenido](https://github.com/Zarlie/UyA/blob/master/Pr%C3%A1ctica%207%20-%20Intro%20Firebase%201%20Informe/imagenes/Eliminar%20usuario.png)
+![Mostrar contenido](https://github.com/Zarlie/UyA/blob/master/Pr%C3%A1ctica%207%20-%20Intro%20Firebase%201%20Informe/imagenes/Mostrar%20.png)
