@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Firebase Cliente Web</title>
+    <meta name="author" content="Melissa Díaz Suárez y Andrea Hernández Martín" />
+</head>
+
+<body>
+    <h1>Test con Firebase</h1>
+    <p id="infoFire"> </p>
+    <button class="nuevo_usuario">Introducir nuevo usuario</button>
+    <button class="modificar_datos">Modificar los datos</button>
+    <button class="mostrar_datos">Mostrar datos</button>
+    <button class="eliminar_usuario">Eliminar un usuario</button>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+          apiKey: "AIzaSyCE__6htYPdhFZactHw4QbNtiXdVCwN23Q",
+          authDomain: "practica-7-740c5.firebaseapp.com",
+          databaseURL: "https://practica-7-740c5.firebaseio.com/",
+          projectId: "practica-7-740c5",
+          storageBucket: "practica-7-740c5.appspot.com",
+          messagingSenderId: "608630026729",
+          appId: "1:608630026729:web:d1787573857557d3b29b78",
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        
+        //Referencia a la base de datos
+        var database = firebase.database();
+        
+        let buttonNuevo = document.querySelector(".nuevo_usuario");
+        let buttonModificar = document.querySelector(".modificar_datos");
+        let buttonMostrar = document.querySelector(".mostrar_datos");
+        let buttonEliminar = document.querySelector(".eliminar_usuario");
+
+        let referencia;
+        
+        // Modificar los datos de un usuario existente
+        buttonModificar.onclick = () => {
+          referencia = database.ref('/usuarios/usuario1');
+          referencia.update({
+                correo: 'marta@gmail.com',
+          });
+
+          referencia = database.ref('/usuarios/usuario2');
+          referencia.update({
+                correo: 'marcos@gmail.com',
+          });
+        };
+
+        // Añadir un nuevo usuario
+        buttonNuevo.onclick = () => {
+          referencia = database.ref('/usuarios/usuario3');
+          referencia.set({
+                nombre: 'Luke',
+                correo: 'luke@gmail.com',
+                edad: '19',
+                sexo: 'Hombre'
+          });
+
+          referencia = database.ref('/usuarios/usuario4');
+          referencia.set({
+                nombre: 'Arya',
+                correo: 'arya@gmail.com',
+                edad: '18',
+                sexo: 'Mujer'
+          });
+        };
+
+        // Mostrar los datos seleccionados
+        buttonMostrar.onclick = () => {
+          // Se muestra el sexo del usuario 1
+          referencia = database.ref('/usuarios/usuario1');
+          referencia.on('value', snapshot => {
+            console.log("Usuario 1: ", snapshot.val().sexo);
+          });
+          // Se muestra el nombre del usuario 4
+          referencia = database.ref('/usuarios/usuario4/nombre');
+          referencia.on('value', snapshot => {
+            console.log("Usuario 4:",snapshot.val());
+          });
+          // Se muestran todos los datos dentro del nodo usuarios
+          referencia = database.ref('/usuarios');
+          referencia.on('value', snapshot => {
+            console.log("Todos los usuarios: ", snapshot.val());
+          });
+        };
+        
+        // Elimina un usuario
+        buttonEliminar.onclick = () => {
+          referencia = database.ref('/usuarios/usuario3');
+          referencia.remove();
+        };
+      
+    </script>
+</body>
+</html>
