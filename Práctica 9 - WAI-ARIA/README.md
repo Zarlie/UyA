@@ -9,16 +9,16 @@ En el presente informe, se realizará un pequeño análisis de las páginas web 
 Por otro lado, etiquetaremos apropiadamente mediante WAI-ARIA para mejorar la accesibilidad de estas páginas. 
 
 ## Práctica HTML
-**· Aspecto inicial:**
+**· Aspecto inicial: **
 ![Antes de actualizar P2](https://github.com/Zarlie/UyA/blob/master/Pr%C3%A1ctica%209%20-%20WAI-ARIA/Pr%C3%A1ctica%20HTML%20-%20Antes.gif)
 
-**· Aspecto tras aplicar WAI-ARIA:**
+**· Aspecto tras aplicar WAI-ARIA: **
 ![Después de actualizar P2](https://github.com/Zarlie/UyA/blob/master/Pr%C3%A1ctica%209%20-%20WAI-ARIA/Pr%C3%A1ctica%20HTML%20-%20Despu%C3%A9s.gif)
 
 
 ## Práctica Materialize
-**· Aspecto inicial:**
+**· Aspecto inicial: **
 ![Antes de actualizar P4](https://github.com/Zarlie/UyA/blob/master/Pr%C3%A1ctica%209%20-%20WAI-ARIA/Pr%C3%A1ctica%20Materialize%20-%20Antes.gif)
 
-**· Aspecto tras aplicar WAI-ARIA:**
+**· Aspecto tras aplicar WAI-ARIA: **
 ![Después de actualizar P4](https://github.com/Zarlie/UyA/blob/master/Pr%C3%A1ctica%209%20-%20WAI-ARIA/Pr%C3%A1ctica%20Materialize%20-%20Despu%C3%A9s.gif)
