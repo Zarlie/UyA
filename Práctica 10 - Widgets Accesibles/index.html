@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <title>Práctica 10 - Usabilidad y Accesibilidad</title>
+</head>
+
+<body>
+    <h1>Widgets Accesibles</h1>
+
+    <!-- MIGAS DE PAN -->
+    <h2 tabindex="0">Migas de pan</h2>
+    <nav aria-label="migas de pan" aria-hidden="false">
+        <div class="nav-wrapper">
+            <div class="col s12">
+                <ol>
+                    <a href="#!" class="breadcrumb">Primero</a>
+                    <a href="#!" class="breadcrumb">Segundo</a>
+                    <a href="#!" class="breadcrumb" araria-current="location">Tercero</a>
+                </ol>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ACORDEÓN -->
+    <h2>Acordeón</h2>
+    <ul class="collapsible" tabindex="0" aria-label="acordeón" aria-live="polite">
+        <li>
+            <div class="collapsible-header" aria-expanded="true" aria-hidden="false" aria-controls="primera_seccion" tabindex="0"><i class="material-icons">filter_drama</i>Primero</div>
+            <div id="primera_seccion" class="collapsible-body" tabindex="0"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+            <div class="collapsible-header" aria-expanded="true" aria-hidden="false" aria-controls="primera_seccion" tabindex="0"><i class="material-icons">place</i>Segundo</div>
+            <div id="segunda_seccion" class="collapsible-body" tabindex="0"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+        <li>
+            <div class="collapsible-header" aria-expanded="true" aria-hidden="false" aria-controls="tercera_seccion" tabindex="0"><i class="material-icons"> whatshot</i>Tercero</div>
+            <div id="tercera_seccion" class="collapsible-body" tabindex="0"><span>Lorem ipsum dolor sit amet.</span></div>
+        </li>
+    </ul>
+    
+    
+    <!-- CARROUSEL -->
+    <h2>Carrousel</h2>
+    <div id="carousel" class="carousel carousel-slider center" tabindex="0" aria-live="polite"
+        aria-label="carrousel de 5 transiciones" role="region">
+        <div class="carousel-item red white-text" href="#one!" aria-label="panel 1 de 5" role="group">
+            <h2>Primer Panel</h2>
+            <p class="white-text">Este es tu primer panel</p>
+        </div>
+        <div class="carousel-item amber white-text" href="#two!" aria-label="panel 2 de 5" role="group">
+            <h2>Segundo Panel</h2>
+            <p class="white-text">Este es tu segundo panel</p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!" aria-label="panel 3 de 5" role="group">
+            <h2>Tercer Panel</h2>
+            <p class="white-text">Este es tu tercer panel</p>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!" aria-label="panel 4 de 5" role="group">
+            <h2>Cuarto Panel</h2>
+            <p class="white-text">Este es tu cuarto panel</p>
+        </div>
+        <div class="carousel-item purple white-text" href="#five!" aria-label="panel 5 de 5" role="group">
+            <h2>Quinto Panel</h2>
+            <p class="white-text">Este es tu quinto panel</p>
+        </div>
+    </div>
+
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+    <script type="text/javascript" src="./js/index.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="./js/materialize.min.js"></script>
+</body>
+
+</html>
