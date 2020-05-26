@@ -19,3 +19,4 @@ Enlaces a prácticas:
 - [Práctica 7. Introducción a Firebase 1 Informe](https://github.com/Zarlie/UyA/tree/master/Pr%C3%A1ctica%207%20-%20Intro%20Firebase%201%20Informe)
 - [Práctica 9. WAI-ARIA](https://github.com/Zarlie/UyA/tree/master/Pr%C3%A1ctica%209%20-%20WAI-ARIA)
 - [Práctica 10. Widgets Accesibles](https://github.com/Zarlie/UyA/tree/master/Pr%C3%A1ctica%2010%20-%20Widgets%20Accesibles)
+- [Práctica 12. Responsive Design](https://github.com/Zarlie/UyA/tree/master/Pr%C3%A1ctica%2012%20-%20Responsive%20Design)
