@@ -1,6 +1,6 @@
 # Práctica 12 - Diseño Responsivo
 
-A continuación se 
+A continuación se detallan los contenidos de la práctica correspondiente al Diseño Responsivo de una página web.
 
 **Elementos añadidos**
 - Barra de navegación que contienen los accesos directos a las diferentes páginas de la web
