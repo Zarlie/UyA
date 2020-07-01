@@ -1,0 +1,208 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap'); */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+/* Profile Header */
+.profile-header{
+      background: #ededed;
+      width: 100%;
+      display: flex;
+      height: 190px;
+      position: relative;
+      box-shadow: 0px 3px 4px rgba(0, 0, 0, 2);
+  }
+  /* Profile Image */
+    .profile-img {
+      float: left;
+      width: 340px;
+      height: 200px;
+  }
+
+    .profile-img img {
+      border-radius: 50%;
+      height: 230px;
+      width: 230px;
+      border: 6px solid #ffffff;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 2);
+      position: absolute;
+      left: 50px;
+      top: 20px;
+      z-index: 5;
+
+  }
+
+  /* Header Info */
+    .profile-nav-info {
+      float: left; 
+      flex-direction: column;
+      justify-content: center;/* Qué mierda hacen estos tres */
+      padding-top: 60px;
+
+  }
+    .profile-nav-info h3 {
+      font-variant: small-caps;
+      font-size: 2.5rem;
+      font-weight: bold;
+
+  }
+    .profile-nav-info .university{
+      color: rgb(82, 78, 78)
+
+  }
+
+/*User Info (Both Sides)*/
+.user-info {
+    width: 100%;
+    display: flex;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+    /* Left Side */
+    .profile-side{
+      width: 300px;
+      background: #ededed;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 2);
+      padding: 90px 40px 20px;
+      z-index: 99;
+    
+    }
+    .profile-side p{
+      margin-bottom: 10px;
+      font-size: 16px;
+    
+    }
+    
+    .profile-side i{
+      color:  rgb(82, 78, 78);
+      margin-right: 10px;
+    
+    }
+    .profile-btn{
+      display: flex;
+
+    }
+
+    button.chatbtn, 
+    button.createbtn{
+      border: 0;
+      padding: 10px;
+      width: 100%;
+      border-radius: 3px;
+      background: #ee6e73;
+      font-size: 1rem;
+      margin: 5px 2px;
+      cursor: pointer;
+      outline: none;
+      margin-bottom: 10px;
+      transition: background .3s ease-in-out;
+      color: #ffffff;  
+    
+    }
+    button.chatbtn i,
+    button.createbtn i{
+      margin-right: 5px;
+      color: #ffffff;
+
+    }
+
+    /* Right Side */
+    .nav {
+      width: 100%;
+      z-index: -1;
+    
+    }
+    .nav ul{
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      height: 40px;
+      width: 100%;
+      background: #ffffff;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 3);
+
+    }
+    .nav ul li {
+      padding: 10px;
+      width: 100%;
+      cursor: pointer;
+      text-align: center;
+      transition: all .2s ease-in-out;
+
+    }
+    .nav ul li.active,
+    .nav ul li:hover {
+      box-shadow: 0px -3px 0px #ee6e73 inset;
+    
+    }
+    .profile-body{
+      width: 100%;
+      z-index: -1;
+
+    }
+    .tab {
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      display: none;
+    }
+
+
+/*---Media Queries (Screens)--*/ 
+  @media (max-width: 992px){
+
+    /* Profile Header */
+    .profile-header {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      text-align: center;
+      padding-bottom: 20px;
+
+    }
+      /* Profile Image */
+      .profile-img {
+        float: left;
+        width: 100%;
+        height: 200px;
+
+      }
+      /* Header Info */
+      .profile-img img{
+        position: relative;
+        left: 0;
+
+      }
+      .profile-nav-info{
+        text-align: center;
+
+      }
+
+      /* User Info (Both Sides) */
+      .user-info{
+        flex-direction:column;
+
+      }
+        /* Left Sides */
+        .profile-side {
+          width: 100%;
+          text-align: center;
+          padding: 20px;
+
+        }
+      }
+
+  @media (max-width:576px){
+    /* Profile Header */
+    .profile-header h3 {
+      font-size: 1.7rem;
+    
+    }
+    .profile-header p {
+      font-size: 1rem;
+    
+    }
+  }

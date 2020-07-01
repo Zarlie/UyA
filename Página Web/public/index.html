@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Banco de Tiempo</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger" ><i class="material-icons">menu</i></a>
+                <a href="index.html" class="brand-logo"><i class="material-icons" aria-label="Banco de Tiempo">watch_later</i>Banco de Tiempo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="./html/iniciar_sesion.html"> Iniciar sesión </a></li>
+                    <li><a href="./html/registro.html">Registrarse</a></li>
+                    <li><a href="./html/quienes_somos.html">Quiénes somos</a></li>
+                    <li><a href="./html/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul id="nav-mobile" class="sidenav" tabindex="-1">
+            <li><a href="index.html" class="brand-logo" tabindex="-1"><i class="material-icons">watch_later</i>Banco de Tiempo</a></li>
+            <li><a href="../index.html" tabindex="-1">Inicio</a></li>
+            <li><a href="./html/iniciar_sesion.html" tabindex="-1"> Iniciar sesión </a></li>
+            <li><a href="./html/registro.html" tabindex="-1">Registrarse</a></li>
+            <li><a href="./html/quienes_somos.html" tabindex="-1">Quiénes somos</a></li>
+            <li><a href="./html/contacto.html" tabindex="-1">Contacto</a></li>
+        </ul>
+        
+        <!-- Barra de búsqueda -->
+        <nav>
+            <div class="nav-wrapper">
+                <form>
+                    <div class="input-field">
+                        <input id="search" type="search" aria-label="Buscador">
+                        <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                        <i class="material-icons">close</i>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+    <!-- Contenido principal -->
+    <div class="parallax-container valign-wrapper">
+        <div class="parallax"><img class="responsive-img" src="img/portada.jpeg" alt=""></div>
+    </div>
+
+    <div class="informacion" rol="contentinfo">
+        <section class="section">
+            <div class="row">
+
+                <div class="col s12">
+                    <h1 id="que-es-bdt" tabindex=0 aria-label="¿Qué es un banco de tiempo?"><i class="large material-icons">access_time</i> ¿Qué es un banco de tiempo? </h1>
+                    <p tabindex="0" class="light" id="parrafo1" tabindex=0> El Banco de Tiempo promueve intercambios de tiempo entre
+                        <b>usuarios mayores de edad</b> (socios), que estén dados de alta en el sistema. <br>
+                        Ofrece la oportunidad de que la gente se conozca y confíe en los demás para resolver necesidades de la
+                        vida diaria, de esta forma se intenta mejorar la calidad de vida de las personas y dinamizar la vida local
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="parallax-container valign-wrapper">
+        <div class="parallax"><img class="responsive-img" src="img/foto3.jpeg" alt=""></div>
+    </div>
+
+    <div class="informacion" rol="contentinfo">
+
+        <section class="section" aria-label="">
+            <div class="col s12">
+                <h1 id="intercambio-bdt" tabindex="0" aria-label="¿Qué se intercambia?">¿Qué se intercambia?</h1>
+                <p tabindex="0">
+                    Los <b>bienes, productos, servicios</b> o <b>actividades</b> que se pueden intercambiar
+                    dependen de la imaginacion y diversidad de experiencias de los socios y las socias del Banco del Tiempo. <br>
+                    Se caracterizan por estar vinculadas a la vida diaria. Algunos ejemplos pueden ser: acompañar a un paseo
+                    o al médico, enseñar unos pasos de baile o una receta de cocina, ayuda en el hogar, cuidado puntual de niños,
+                    plantas o animales, informática... En definitiva, cualquier actividad que alguién necesite o quiera ofrecer
+                </p> 
+                
+                <div class="container section">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="carousel carousel-slider" aria-roledescription="carousel" aria-live="polite" tabindex="0" aria-label="Carousel de 3 fotografías"> 
+                                <a href="#" class="carousel-item parallax-container valign-wrapper" tabindex="-1" aria-roledescription="slide">
+                                    <img class="responsive-img" src="./img/foto_carrousel2.jpg" alt="">
+                                </a>
+                                    
+                                <a href="#" class="carousel-item parallax-container valign-wrapper" tabindex="-1" aria-roledescription="slide">
+                                    <img class="responsive-img" src="./img/carousel3.jpg" alt="">
+                                </a>
+
+                                <a href="#" class="carousel-item parallax-container valign-wrapper" tabindex="-1" aria-roledescription="slide">
+                                    <img class="responsive-img" src="./img/foto_carrousel3.jpg" alt="">
+                                </a>
+                            </div>
+                            <button id="btn-carrousel" class="waves-effect waves-light btn" tabindex="0" aria-live="polite" onclick="next()">Siguiente</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h1 id="participacion" tabindex="0" aria-label="¿Cómo participar?">Cómo participar</h1>
+                <p tabindex="0"> ¿Quieres formar parte de esta comunidad? ¡Para participar en el Banco del Tiempo primero debes estar asociado, para lo cual puedes
+                    registrarte ¿Quieres formar parte de la comunidad? Los pasos son sencillos:
+            </div>
+
+            <ul class="collection with-header" id="lista-participacion">
+                <li class="collection-item" tabindex="0">1. Para participar en el Banco del Tiempo primero debes estar asociado, para lo cual puedes
+                    registrarte en el <em><a href="./html/registro.html">siguiente formulario</a></em></li>
+                <li class="collection-item" tabindex="0" >2. ¡Comienza a invertir tu tiempo!</li>
+            </ul>
+
+
+            <!-- Valoración personas -->
+            <h1 class="center" tabindex="0" aria-label="Experiencias de los usuarios"><i class="large material-icons">rate_review</i>Experiencias de los usuarios</h1>
+            <div class="carousel" id="cards" aria-roledescription="carousel" aria-live="polite">
+                <div class="carousel-item" id="cartas" aria-roledescription="slide" aria-label="panel 1 de 5">
+                    <div class="card sticky-action">       
+                        <div class="card-image">
+                            <img src="./img/Ana Garcia.jpg">
+                            <span class="card-title" tabindex="0">
+                            Ana García
+                            </span> 
+                        </div>
+                        
+                        <span class="card-content" tabindex="0">
+                            Profesora de idiomas
+                        </span>
+                        
+                        <div class="card-content" tabindex="0">
+                            <p>Ya había estado en otras páginas pero sin duda me quedo en esta, ¡es magnífica!</p> 
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="carousel-item" id="cartas" aria-roledescription="slide" aria-label="panel 2 de 5">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./img/Fernando_Simon.jpg">
+                            <span class="card-title" tabindex="0">
+                                Fernando Simón 
+                            </span>
+                        </div>
+                        
+                        <span class="card-content" tabindex="0">
+                            Estudiante de Bachillerato
+                        </span>
+                        
+                        <div class="card-content" tabindex="0">
+                            <p>Gracias a esta página he podido encontrar un apoyo extra a mis clases para poder preparar la EBAU, ha sido genial.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" id="cartas" aria-roledescription="slide" aria-label="panel 3 de 5">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./img/Edu_Diaz.jpg">
+                            
+                            <span class="card-title" tabindex="0">
+                                Eduardo Díaz
+                            </span>
+                        </div>
+                        
+                        <span class="card-content" tabindex="0">
+                            Cuidador de personas mayores
+                        </span>
+
+                        <div class="card-content" tabindex="0">
+                            <p>Llevo sólo 2 meses en esta comunidad y la gente con la que he interactuado ha sido maravillosa</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" id="cartas" aria-roledescription="slide" aria-label="panel 4 de 5">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./img/Marina_Perez.jpg">
+                            
+                            <span class="card-title" tabindex="0">
+                                Marina Pérez
+                            </span>
+                        </div>
+                        
+                        <span class="card-content" tabindex="0">
+                            Ingeniera mecánica
+                        </span>
+                        
+                        <div class="card-content" tabindex="0">
+                            <p>Excelente servicio, seguiré invirtiendo mi tiempo aquí sin dudarlo, siempre es un placer poder ayudar a otras personas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item" id="cartas" aria-roledescription="slide" aria-label="panel 5 de 5">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="./img/Maria Candelaria González.jpg">
+                            
+                            <span class="card-title" tabindex="0">
+                                María Candelaria
+                            </span>
+                        </div>
+                        
+                        <span class="card-content" tabindex="0">
+                            Enseño a cocinar y coser
+                        </span>
+                        
+                        <div class="card-content" tabindex="0" aria-label="Página 100 por 100 recomendada, la comunidad es estupenda!">
+                            <p>¡Página 100% recomendada, la comunidad es estupenda!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <div class="parallax-container valign-wrapper">
+            <div class="parallax"><img class="responsive-img" src="img/foto2.jpeg"></div>
+        </div>
+    </div>
+    
+    </main>
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s3">
+                    <h5 class="white-text" tabindex="0">Contacto</h5>
+                    <ul>    
+                        <li><a class="grey-text text-lighten-3" href="#!">Melissa Díaz Suárez</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Andrea Hernández Martín</a></li>
+                    </ul>
+                </div>
+                <div class="col s3">
+                    <h5 class="white-text" tabindex="0">Ubicación</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Universidad de La Laguna</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Escuela Superior de Ingeniería y
+                                Tecnología</a></li>
+                    </ul>
+                </div>
+                <div class="col s3">
+                    <h5 class="white-text" tabindex="0">Redes sociales</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="col s3">
+                    <h5 class="white-text" tabindex=0>Aspectos legales</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="./html/politica.html">Política de Privacidad</a></li>
+                        <li><a class="grey-text text-lighten-3" href="./html/cookies.html" aria-label="Política de cuquis">Política de Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

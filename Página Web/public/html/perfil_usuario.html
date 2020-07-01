@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Perfil de usuario</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <a href="../index.html" class="brand-logo" aria-label="banco de tiempo"><i class="material-icons">watch_later</i>Banco de Tiempo</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="iniciar_sesion.html"> Iniciar sesión </a></li>
+                    <li><a href="registro.html">Registrarse</a></li>
+                    <li><a href="quienes_somos.html">Quiénes somos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    
+        <ul id="nav-mobile" class="sidenav" tabindex="-1">
+            <li><a href="index.html" class="brand-logo" tabindex="-1"><i class="material-icons">watch_later</i>Banco de Tiempo</a></li>
+            <li><a href="../index.html" tabindex="-1">Inicio</a></li>
+            <li><a href="./html/iniciar_sesion.html" tabindex="-1"> Iniciar sesión </a></li>
+            <li><a href="./html/registro.html" tabindex="-1">Registrarse</a></li>
+            <li><a href="./html/quienes_somos.html" tabindex="-1">Quiénes somos</a></li>
+            <li><a href="./html/contacto.html" tabindex="-1">Contacto</a></li>
+        </ul>
+        
+    </header>
+    
+
+    <main>
+
+      <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="../img/foto_perfil2.jpg" alt="" class="circle responsive-img">
+            </div>
+            <div class="col s10">
+              <span class="black-text" tabindex="0">
+                NOMBRE Y APELLIDOS<br>
+                Descripción del usuario
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="card">
+            <div class="card-content">
+        
+            <div class="card-tabs">
+              <ul class="tabs tabs-fixed-width">
+                <li class="tab col s4"><a href="#contactos">Contactos</a></li>
+                <li class="tab col s4"><a href="#anuncio">Anuncios</a></li>
+                <li class="tab col s4"><a href="#opiniones">Opiniones</a></li>
+              </ul>
+            </div>
+
+            <div class="card-content grey lighten-4">
+                <div id="contactos" class="col s12" tabindex="0">
+                    <ul class="collection" aria-label="Tus contactos">
+                        <li class="collection-item avatar">
+                            <img src="../img/Juan.jpg" alt="" class="circle">
+                            <span class="title" tabindex="0">Juan González</span>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="../img/Damian.jpg" alt="" class="circle">
+                            <span class="title" tabindex="0">Damián Díaz</span>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="../img/Marta.jpg" alt="" class="circle">
+                            <span class="title" tabindex="0">Marta Hernández</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="anuncio" class="col s12" tabindex="0">
+                    <ul class="collection">
+                        <li class="collection-item" tabindex="0">¡Necesito a alguien que pasee a mi perro el día 20-7-2020!</li>
+                        <li class="collection-item" tabindex="0">Busco profesor de inglés a ser posible para 4 horas semanales</li>
+                        <li class="collection-item" tabindex="0">Me gustaría aprender más sobre cocina asiática, busco profesor de cocina</li>
+                    </ul>
+                </div>
+                    
+                <div id="opiniones" class="col s12">
+                    <ul class="collection">
+                        <li class="collection-item" tabindex="0" aria-label="Ningún problema, me ha ayudado un montón de veces y no tengo ninguna queja. Valoración de 5 estrellas">
+                            Ningún problema, me ha ayudado un montón de veces y no tengo ninguna queja.
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                        </li>
+                        <li class="collection-item" tabindex="0" aria-label="Me encantó el trato recibido, ojalá su disponibilidad de horario fuera más flexible. ¡Igualmente 100 por 100 recomendado!. Valoración de 4 estrellas">
+                            Me encantó el trato recibido, ojalá su disponibilidad horario fuera más flexible. ¡Igualmente 100% recomendado!
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star</i>
+                            <i class="material-icons">star_border</i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s3">
+                    <h5 class="white-text" tabindex="0">Contacto</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Melissa Díaz Suárez</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Andrea Hernández Martín</a></li>
+                    </ul>
+                </div>
+                <div class="col s3">
+                    <h5 class="white-text" tabindex="0">Ubicación</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Universidad de La Laguna</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Escuela Superior de Ingeniería y
+                                Tecnología</a></li>
+                    </ul>
+                </div>
+                <div class="col s3">
+                    <h5 class="white-text" tabindex="0">Redes sociales</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Youtube</a></li>
+                    </ul>
+                </div>
+                <div class="col s3">
+                    <h5 class="white-text" tabindex=0>Aspectos legales</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="./html/politica.html">Política de Privacidad</a></li>
+                        <li><a class="grey-text text-lighten-3" href="./html/cookies.html" aria-label="Política de Cuquis">Política de Cookies</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../js/index.js"></script>
+
+</body>
+
+</html>
